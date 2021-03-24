@@ -1,0 +1,53 @@
+.registration-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background: antiquewhite;
+  height: 833px;
+}
+#registration {
+    color: black;
+    border: solid 2px black;
+    background:burlywood;
+    text-decoration:wavy;
+    margin: 25px 200px 30px;
+}
+.registration-form {
+  justify-content: center;
+  width: 600px;
+  height: 490px;
+  text-align: center;
+  background: linear-gradient(50deg, burlywood, transparent);
+  border: 2px solid;
+}
+input {
+  height: 40px;
+  width: 350px;
+  margin: 10px;
+  text-align: center;
+}
+.myButton {
+  display: flex;
+  margin: auto;
+  box-shadow: 0 1px 0 0 #1c1b18;
+  background-color: burlywood;
+  border-radius:15px;
+  cursor:pointer;
+  color:Black;
+  font-size:14px;
+  font-weight:bold;
+  padding:12px 16px;
+  text-decoration:wavy;
+  text-shadow:0 1px 0 #ffffff;
+  margin-top: 10px;
+}
+.myButton:hover {
+  background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  background-color:#ccc2a6;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}

@@ -1,0 +1,18 @@
+.wrapper {
+  height: 60px;
+  display: flex;
+  background: #ffd3a1;
+  background-size: cover;
+}
+.profileName {
+  font-size: 20px;
+  margin-left: auto;
+  color: black;
+  padding: 10px 20px
+}
+#logo {
+  height: 60px;
+  width: 60px;
+  background: url("../../assets/img/logo.png");
+  background-size: cover;
+}
